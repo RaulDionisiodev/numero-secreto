@@ -21,3 +21,6 @@ The "Javascript: Validações e Reconhecimento de Voz" course by Alura is design
 The course covers the implementation of voice recognition features using the Web Speech API of JavaScript. Students learn to use this API to create applications that can interact with users through voice, allowing voice commands, audio transcription, and other related functionalities.
 
 Upon completing the "Javascript: Form Validations and Voice Recognition" course by Alura, participants will have acquired skills in exploring voice recognition features to create interactive and innovative applications.
+
+
+https://rauldionisiodev.github.io/numero-secreto/
