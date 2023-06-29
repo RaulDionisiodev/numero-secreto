@@ -1,6 +1,35 @@
 function verificaSeOChutePossuiUmValorValido(chute) {
 
     const numero = +chute
+    
+    if (chute.toLowerCase() == "game over") {
+        document.body.innerHTML = 
+        `<h2>Game Over</h2>
+        
+        <button id="jogar-novamente" class="btn-jogar">Jogar novanente</button>
+        `
+        document.body.style.backgroundColor = "#455A64"
+    }
+
+    if (chute.toLowerCase() == "morgana") {
+        document.body.innerHTML = 
+        `<h2>Oi, Amor 🥰</h2>
+        
+        <button id="jogar-novamente" class="btn-jogar">Jogar novanente</button>
+        `
+        document.body.style.backgroundColor = "#F48FB1"
+    }
+
+    if (chute.toLowerCase() == "bebel") {
+        document.body.innerHTML = 
+        `<h2>Princesa do papai 🥰</h2>
+        
+        <button id="jogar-novamente" class="btn-jogar">Jogar novanente</button>
+        `
+        document.body.style.backgroundColor = "#F06292"
+    }
+
+
 
     if (chuteForInvalido(numero)) {
        elementoChute.innerHTML += `<div>Valor inválido</div>`
